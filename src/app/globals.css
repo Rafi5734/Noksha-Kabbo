@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+    --ink: #211e1b;
+    --muted: #766d63;
+    --paper: #f5f1eb;
+    --sand: #e8dfd3;
+    --gold: #b28a51;
+    --line: #d9d0c5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans), Arial, sans-serif;
+}

@@ -1,0 +1,6 @@
+type IconProps = { size?: number };
+export function SearchIcon({ size = 20 }: IconProps) { return <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4.5 4.5" /></svg>; }
+export function BagIcon({ size = 20 }: IconProps) { return <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M5.5 8.5h13l.8 11H4.7l.8-11Z" /><path d="M9 9V6.8a3 3 0 0 1 6 0V9" /></svg>; }
+export function ArrowUpRight({ size = 18 }: IconProps) { return <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M5 19 19 5M8 5h11v11" /></svg>; }
+export function ArrowRight({ size = 18 }: IconProps) { return <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 12h15M13 6l6 6-6 6" /></svg>; }
+export function HeartIcon({ size = 19 }: IconProps) { return <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20.8 8.7c0 5.2-8.8 10.1-8.8 10.1S3.2 13.9 3.2 8.7a4.5 4.5 0 0 1 8.8-1.4 4.5 4.5 0 0 1 8.8 1.4Z" /></svg>; }
