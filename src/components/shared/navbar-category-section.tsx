@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Search, User, Heart, ShoppingBag, Menu, X } from "lucide-react";
 
@@ -92,7 +92,7 @@ export default function NavbarCategorySection() {
 
             {/* Bag */}
             <Link
-              href="/cart"
+              href="/bag"
               className="flex items-center gap-1.5 hover:text-gray-600 transition-colors"
             >
               <ShoppingBag

@@ -65,7 +65,7 @@ interface BestsellersSectionProps {
 export default function BestsellersSection({
   title = "The pieces you come back to.",
   ctaLabel = "SHOP BESTSELLERS",
-  ctaHref = "/collections/bestsellers",
+  ctaHref = "/shop",
   products = BESTSELLERS,
 }: BestsellersSectionProps) {
   return (
