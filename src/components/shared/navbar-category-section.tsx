@@ -59,14 +59,18 @@ export default function NavbarCategorySection() {
           {/* Right Action Items */}
           <div className="flex items-center justify-end flex-1 space-x-5 text-xs sm:text-sm tracking-wide">
             {/* Search */}
-            <button className="flex items-center gap-1.5 hover:text-gray-600 transition-colors">
+            <Link
+              href="/search"
+              aria-label="Search jewellery"
+              className="flex items-center gap-1.5 hover:text-gray-600 transition-colors"
+            >
               <Search
                 size={15}
                 strokeWidth={1.75}
                 className="hidden sm:inline"
               />
               <span>Search</span>
-            </button>
+            </Link>
 
             {/* Account */}
             <Link
